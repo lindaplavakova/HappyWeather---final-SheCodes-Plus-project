@@ -1,0 +1,93 @@
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 30px 0px 15px 0px;
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+}
+
+.app-header {
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #ffb26b;
+  background: #ff7b54;
+}
+
+.main-photo {
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.current-weather {
+  margin: 5px;
+}
+
+.col {
+  margin: 15px auto;
+  padding: 0px;
+}
+
+.forecast-row {
+}
+
+.form-control {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-size: 12px;
+  display: block;
+  margin: 20px auto;
+  background: #ffd56b;
+  color: black;
+  border: 1px solid #ffd56b;
+  width: 100px;
+}
+
+.btn-primary:hover {
+  background: #ff7b54;
+  border: 1px solid #ff7b54;
+}
+
+.quote {
+  padding-bottom: 100px;
+  line-height: 60px;
+}
+
+.git-link {
+  text-align: center;
+  padding-bottom: 100px;
+  color: #212529;
+}
+.git-link:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+#current-date {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+#current-temp {
+  font-size: 30px;
+  margin: 5px;
+}
