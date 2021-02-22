@@ -26,9 +26,22 @@
             HappyWeather
         </header>
     <h1></h1>
+       
+
     <img src="src/Rain.jpg" class="main-photo" alt="Happy Rain">
 
 
+    <form id="cityForm" >
+            <input type="text" 
+            class="form-control" 
+            id="input-city" 
+            placeholder="Enter city "
+            autocomplete="off">
+            <container class="buttons">
+                <button type="submit" class="btn btn-primary"> Show weather</button>
+                <button class="btn btn-primary" id="locate-btn"> Locate me </button>
+            </container>
+    </form>        
 
     <section class="current-weather">
         <p id="current-date"> Today </p>
@@ -41,53 +54,24 @@
         </p>
     
     </section>
-    
- 
-    
-
    
 
 
-<section class="forecast">
-<div class="row">
-    <div class="col">
-        Tomorrow<br>
-        31°C ☀️
-    </div>
-    <div class="col">
-        Monday<br>
-        31°C🌦
-    </div>
-    <div class="col">
-        Tuesday<br>
-        31°C🌧
-    </div>
-    <div class="col">
-        Wednesday<br>
-        32°C🌧
-    </div>
-    <div class="col">
-        Thursday<br>
-        31°C ☀️
-    </div>
+<section class="next-five-days">
+<div class="row weather-forecast" id= "forecast">
+    
 </div>
 </section>
 
-    <div class="searchbox">
-        <form id="cityForm">
-            <div class="form-group">
-    
-                <input type="text" class="form-control" id="example-input-city" placeholder="Enter city ">
-            </div>
-    
-            <button type="submit" class="btn btn-primary"> Show weather</button>
-    </div>
-    <button class="btn btn-primary" id="locate-btn"> Locate me </button>
+
 
 <div class="quote">
     Life isn't about waiting for the storm to pass. It's about learning how to dance in the rain.</br>
-    <a href="https://github.com/lindaplavakova/HappyWeather.git" target="_blank" class="git-link">GitHub
-    </a>
+</div>
+<div class="git-link">
+<a href= "https://github.com/lindaplavakova/HappyWeather---final-SheCodes-Plus-project" target="_blank" class="git-link"> 
+Open-source code
+    </a> by Linda Plaváková
 </div>
 
 
