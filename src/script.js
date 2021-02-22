@@ -153,7 +153,7 @@ forecastElement.innerHTML = forecastElement.innerHTML +
         </div>`
 
 
-for (let index = 2; index < 5; index++) 
+for (let index = 2; index < 6; index++) 
 {
 
 forecast = (response.data.daily[index]);
