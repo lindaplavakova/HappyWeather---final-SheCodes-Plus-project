@@ -1,9 +1,16 @@
+//days of the week
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday"
+]
 
-
-// function that views current day of the week and time under the main photo
-
-
-
+// some initial variables
 let currentTemperature = null;
 let currentLong = null;
 let currentLat = null;
@@ -41,7 +48,7 @@ showDayTime();
 //api key for Open Weather Map
 let apiKey = "dc266af0719230920ce97e61b0255f6f";
 
-//function that shows the user the selected city name and current temperature there + forecast
+//function that selects a different city according to what user searched for in the searchbox
 function changeCity(event) {
   event.preventDefault();
   let heading = document.querySelector("h1");
@@ -49,22 +56,10 @@ function changeCity(event) {
 
 
 
-
-
-
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&appid=${apiKey}&units=metric`;
  axios.get(apiUrl).then(showTemp);
 
-
-
- /* apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${currentLat}&lon=${currentLong}&appid=${apiKey}&units=metric`;
-  axios.get(apiUrl).then(showForecast); */
-
- 
 }
-
-
-
 
 //function for showing the current weather in the selected city + forecast
 function showTemp(response) {
@@ -174,15 +169,5 @@ forecastElement.innerHTML = forecastElement.innerHTML +
 
 
 
-//days of the week
-let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday"
-]
+
   
