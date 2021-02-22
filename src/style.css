@@ -71,13 +71,9 @@ header {
 }
 
 .git-link {
-  padding-bottom: 100px;
-}
-
-.git-link {
   margin-top: 30px;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 300px;
   color: #212529;
 }
 .git-link:hover {
@@ -117,5 +113,4 @@ header {
 }
 
 #small-icon {
-  width: 20px;
 }
